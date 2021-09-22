@@ -3,16 +3,80 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     </head>
     <body>
-        <img src="static/images/flowers.jpeg">
-        <button type="button" onclick="testButton();"> Test </button>
+        <header>
+            <nav>
+                <div>
+                    <img src="static/images/homepage.png" alt="Homepage">
+                </div>
+                <div class="search-container">
+                    <input type="text"><button>Search</button>
+                </div>
+                <div>
+                    <img src="static/images/profile.png" alt="Profile">
+                </div>
+            </nav>
+        </header>
+        <section class="container">
+            <div class="content-sidebar">
+
+            </div>
+            <div class="content-container">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="static/images/profile.png" alt="Profile">
+                        <p> Sep 18, 2020 </p>
+                    </div>
+                    <div class="card-body">
+                        <img src="static/images/portal.jpg" alt="Half-Life 2">
+                    </div>
+                    <div class="card-footer">
+                        <p>
+                            I think its going to rain
+                        </p>
+                        <img src="static/images/like.png" alt="Half-Life 2">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="static/images/profile.png" alt="Profile">
+                        <p> Sep 18, 2020 </p>
+                    </div>
+                    <div class="card-footer">
+                        <p>
+                            I think its going to rain
+                        </p>
+                        <img src="static/images/like.png" alt="Half-Life 2">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <img src="static/images/profile.png" alt="Profile">
+                        <p> Sep 18, 2020 </p>
+                    </div>
+                    <div class="card-body">
+                        <img src="static/images/batman.jpg" alt="Half-Life 2">
+                    </div>
+                    <div class="card-footer">
+                        <p>
+                            I think its going to rain
+                        </p>
+                        <img src="static/images/like.png" alt="Half-Life 2">
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-sidebar">
+                
+            </div>
+        </section>
 
 
-        <script>
-            function testButton() {
-                alert("TEST");
-            }
-        </script>
+
     </body>
 </html>

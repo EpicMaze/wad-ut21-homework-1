@@ -1,0 +1,16 @@
+/* LOGIN.HTML */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+   background-color: rgb(39, 113, 173);
+}
+
+/* login container */
+.login-content {
+    margin: 0 auto;
+}
