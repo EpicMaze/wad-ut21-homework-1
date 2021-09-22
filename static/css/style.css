@@ -13,10 +13,14 @@ nav {
     justify-content: space-between;
     background-color: #ffffff;
     align-items: center; 
-    /* position: fixed; 
+    /* 
+    Decided to leave navbar fixed
+    It looks better this way with colors
+     */
+    position: fixed; 
     width: 100%;    
     top: 0px;   
-    z-index: 1;      */
+    z-index: 1;     
 } 
 
 nav div {
@@ -112,3 +116,10 @@ nav div:last-child img {
 
 
 
+footer {
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    color:rgb(34, 100, 153);
+    font-weight: bold;
+}
