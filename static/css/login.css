@@ -12,5 +12,55 @@ html, body {
 
 /* login container */
 .login-content {
-    margin: 0 auto;
+    background-color: #f7f7f7;
+    margin: 10% auto;
+    /* margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; */
+    width: 25%;
+    text-align: center;
+    padding: 20px;
 }
+
+.login-content img {
+    
+    float: left;
+}
+
+.login-form > input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(71, 71, 71);
+}
+
+
+
+.login-form > button {
+    /* box-sizing: border-box; */
+    height: 30px;
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(39, 113, 173);
+    border-radius: 5px;
+
+}
+
+/* Links style */
+a:link, a:visited {
+   color: rgb(39, 113, 173);
+   text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+    color: rgb(207, 192, 51);
+    text-decoration: none;
+}
+
+
+
