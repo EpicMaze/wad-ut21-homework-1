@@ -74,8 +74,8 @@ nav div:last-child img {
 
 .card {
     /* right, left, blur, spread, color, opacity */
-    box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.87);
-    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
     margin-bottom: 15px;
     
 }
