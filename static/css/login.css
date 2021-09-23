@@ -25,6 +25,7 @@ html, body {
 
 .login-content img {
     float: left;
+    margin-bottom: 10%;     /* not the wise idea i think... */
 }
 
 .login-form > input {
@@ -63,7 +64,7 @@ a:hover, a:visited:hover {
 /* FIX-ME */
 /*  I couldn't think of any other way to fix this */
 #iconTextFloat {
-    margin-right: 17%;
+    margin-right: 16%;
 }
 
 /* 
@@ -74,3 +75,36 @@ div + p:hover {
     margin-left: 10px;
     transition: margin-left 1s;
 }
+
+
+/* ###### MOBILE ####### */
+/*
+    ooof...
+*/
+@media screen and (max-width: 1100px) {
+
+    .login-content img {
+        width: 48px;
+    }
+
+}
+
+@media screen and (min-width: 1460px) {
+
+    div + p {
+        margin-right: 15%;
+    }
+    
+}
+
+@media screen and (min-width: 2000px) {
+
+    #iconTextFloat {
+        margin-right: 12%;
+    }
+    div + p {
+        margin-right: 12%;
+    }
+    
+}
+/* ###### END MOBILE ####### */

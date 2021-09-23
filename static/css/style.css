@@ -158,17 +158,25 @@ footer {
     color:rgb(34, 100, 153);
     /* font-weight: bold; */
 }
-
-
 /* ########## END Footer ########## */
 
 
 
+/* ###### MOBILE ####### */
+/* 
+*** Not even needed for index.htmt
+*** I guess thats a sign of good layout :)
+*/
+/* ###### END MOBILE ####### */
+
+
 
 /* 
-Keyframes dont work when opening html file from 
-local storage :(( 
-    */
+    Keyframes dont work when opening html file from 
+    local storage :(( 
+
+    I have done it with transition property...
+*/
 
 /* @keyframes homepage_icon {
     0% {transform: scale(1);}
