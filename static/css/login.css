@@ -60,9 +60,17 @@ a:hover, a:visited:hover {
     text-decoration: none;
 }
 
+/* FIX-ME */
+/*  I couldn't think of any other way to fix this */
 #iconTextFloat {
-    margin-right: 15%;
+    margin-right: 17%;
 }
 
-
-
+/* 
+    Adjacent Silbling selector
+    I didn't know where else to put it...
+ */
+div + p:hover {
+    margin-left: 10px;
+    transition: margin-left 1s;
+}

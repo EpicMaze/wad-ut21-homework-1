@@ -156,8 +156,10 @@ footer {
     background-color: #ffffff;
     text-align: center;
     color:rgb(34, 100, 153);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
+
+
 /* ########## END Footer ########## */
 
 
