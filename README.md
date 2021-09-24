@@ -18,7 +18,7 @@ University of Tartu, Masters 2021/22
 Not much to add yet so here are some random facts 
 
 ## Random facts
-There is a sciencific phenomenon called **Human parthenogenesis**, when, due to abnorman mutationsm female eggs are fertilized without male sperm, meaning that virgin birth are possible. The child born this way, would only have maternal genes, identical to the mother. Theoretically speaking it is possible, however it was never-seen occuring naturally, only from directional genetic experiments [(1)](%22Stem%20cell%20fraudster%20made%20%27virgin%20birth%27%20breakthrough:%20Silver%20lining%20for%20Korean%20science%20scandal%22), [(2)](https://www.liebertpub.com/doi/10.1089/clo.2007.0033).
+There is a sciencific phenomenon called **Human parthenogenesis**, when, due to abnorman mutationsm female eggs are fertilized without male sperm, meaning that virgin birth are possible. The child born this way, would only have maternal genes, identical to the mother. Theoretically speaking it is possible, however it was never-seen occuring naturally, only from directional genetic experiments [(1)](https://www.theregister.com/2007/08/03/hwang_parthenogenesis/), [(2)](https://www.liebertpub.com/doi/10.1089/clo.2007.0033).
 
 
 
