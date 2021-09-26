@@ -81,22 +81,6 @@ div + p:hover {
 /*
     ooof...
 */
-@media screen and (max-width: 1100px) {
-
-    .login-content img {
-        width: 48px;
-    }
-
-}
-
-@media screen and (min-width: 1460px) {
-
-    div + p {
-        margin-right: 15%;
-    }
-    
-}
-
 @media screen and (min-width: 2000px) {
 
     #iconTextFloat {
@@ -107,4 +91,51 @@ div + p:hover {
     }
     
 }
+
+@media screen and (min-width: 1460px) {
+
+    div + p {
+        margin-right: 15%;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+
+    .login-content img {
+        width: 48px;
+    }
+
+}
+
+@media screen and (max-width: 1006px) {
+    #iconTextFloat a {
+        margin-left: 15%;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .login-content img {
+        width: 32px;
+    }
+
+    #iconTextFloat {
+        margin-right: 13%;
+    }
+    
+    .login-form > input {
+        padding: 5px;
+        max-width: 100%;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .login-form > button {
+        /* box-sizing: border-box; */
+        width: 100%;
+    
+    }
+}
+
 /* ###### END MOBILE ####### */
