@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "profile_img_url": "static/images/profile.png",
+            "time": "Sep 18, 2020 15:16",
+            "post_img_url": "static/images/portal.jpg",
+            "post_text": "I think it's going to rain"
+        },
+        {
+            "profile_img_url": "static/images/profile.png",
+            "time": "Sep 18, 2020 15:16",
+            "post_img_url": "static/images/portal.jpg",
+            "post_text": "I think it's going to rain"
+        },
+        {
+            "profile_img_url": "static/images/profile.png",
+            "time": "Sep 18, 2020 15:16",
+            "post_img_url": "static/images/portal.jpg",
+            "post_text": "I think it's going to rain"
+        }
+    ]
+}
