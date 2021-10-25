@@ -1,0 +1,141 @@
+/* LOGIN.HTML */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+   background-color: rgb(39, 113, 173);
+}
+
+/* login container */
+.login-content {
+    background-color: #f7f7f7;
+    margin: 7% auto;
+    /* margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto; */
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-content img {
+    float: left;
+    margin-bottom: 10%;     /* not the wise idea i think... */
+}
+
+.login-form > input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgb(71, 71, 71);
+}
+
+
+.login-form > button {
+    /* box-sizing: border-box; */
+    height: 30px;
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(39, 113, 173);
+    border-radius: 5px;
+
+}
+
+/* Links style */
+a:link, a:visited {
+   color: rgb(39, 113, 173);
+   text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+    color: rgb(207, 192, 51);
+    text-decoration: none;
+}
+
+/* FIX-ME */
+/*  I couldn't think of any other way to fix this */
+#iconTextFloat {
+    margin-right: 16%;
+}
+
+/* 
+    Adjacent Silbling selector
+    I didn't know where else to put it...
+ */
+div + p:hover {
+    margin-left: 10px;
+    transition: margin-left 1s;
+}
+
+
+/* ###### MOBILE ####### */
+/*
+    ooof...
+*/
+@media screen and (min-width: 2000px) {
+
+    #iconTextFloat {
+        margin-right: 12%;
+    }
+    div + p {
+        margin-right: 12%;
+    }
+    
+}
+
+@media screen and (min-width: 1460px) {
+
+    div + p {
+        margin-right: 15%;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+
+    .login-content img {
+        width: 48px;
+    }
+
+}
+
+@media screen and (max-width: 1006px) {
+    #iconTextFloat a {
+        margin-left: 15%;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    .login-content img {
+        width: 32px;
+    }
+
+    #iconTextFloat {
+        margin-right: 13%;
+    }
+    
+    .login-form > input {
+        padding: 5px;
+        max-width: 100%;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .login-form > button {
+        /* box-sizing: border-box; */
+        width: 100%;
+    
+    }
+}
+
+/* ###### END MOBILE ####### */
