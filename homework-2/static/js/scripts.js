@@ -4,26 +4,23 @@
 // JSON keeper link
 // https://jsonkeeper.com/b/7SMC
 
-// let json_uri = "https://jsonkeeper.com/b/7SMC";
-
+let json_uri = "https://jsonkeeper.com/b/7SMC";
 
 // Fetching JSON via URI and Ajax
-$.ajax({
-    method: "GET",
-    url: "https://jsonkeeper.com/b/7SMC",
-    headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Accept": "*/*",
-    },
-    // crossDomain: true,
-    dataType: "jsonp",
-    success: function(json) {
-        console.log("JSON");
-    }
-    // error: function(response) {
-
-    // }
-});
+// CORS BLOCKED even tho I played with headers all over the place
+// $.ajax({
+//     method: "GET",
+//     url: "https://jsonkeeper.com/b/7SMC",
+//     headers: {
+//         "Access-Control-Allow-Origin": "*",
+//         "Accept": "*/*",
+//     },
+//     // crossDomain: true,
+//     dataType: "jsonp",
+//     success: function(json) {
+//         createPosts(json);
+//     }
+// });
 
 
 let posts_json = {
@@ -104,40 +101,45 @@ let posts_json = {
     ]
 }
 
-let posts = posts_json.posts
 
-for (let i in posts) {
-    let card = $("<div>", {"class": "card"});
-
-
-    // HEADER
-    let header = $("<div>", {"class": "card-header"});
-    header.prepend($("<img>", {src: posts[i].profile_img_url}));
-    header.append(`<p> ${posts[i].time} </p>`);
-
-    // BODY
-    let body = $("<div>", {"class": "card-body"});
-    if (posts[i].post_img_url !== "") {
-        // console.log("NO IMAGE", posts[i].post_text);
-        body.append($("<img>", {src: posts[i].post_img_url}));
-    } 
-
-    // FOOTER
-    let footer = $("<div>", {"class": "card-footer"});
-    footer.append(`<p> ${posts[i].post_text} </p>`);
-    footer.append("<img src='static/images/like_blue.png'>");
+$.get("static/js/posts.json", function(json_posts){
+    createPosts(json_posts);
+});
 
 
-    // Add all to card
-    card.append(header);
-    card.append(body);
-    card.append(footer);
-
-    // Add card to body
-    $('.content-container').append(card);
+function createPosts(json_posts){
+    for (let post of json_posts) {
+        let card = $("<div>", {"class": "card"});
+    
+        // HEADER
+        let header = $("<div>", {"class": "card-header"});
+        header.prepend($("<img>", {src: post.profile_img_url}));
+        header.append(`<p> ${post.time} </p>`);
+    
+        // BODY
+        let body = $("<div>", {"class": "card-body"});
+        if (post.post_img_url !== "") {
+            // console.log("NO IMAGE", posts[i].post_text);
+            body.append($("<img>", {src: post.post_img_url}));
+        } 
+    
+        // FOOTER
+        let footer = $("<div>", {"class": "card-footer"});
+        footer.append(`<p> ${post.post_text} </p>`);
+        footer.append("<img src='static/images/like_blue.png'>");
+    
+    
+        // Add all to card
+        card.append(header);
+        card.append(body);
+        card.append(footer);
+    
+        // Add card to body
+        $('.content-container').append(card);
+    }
 }
 
-    
+
 // Profile dropdown
 let dropdown = $('.profile-dropdown');
 // $('.profile').hide()

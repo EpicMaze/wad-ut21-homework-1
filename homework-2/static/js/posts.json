@@ -1,22 +1,75 @@
-{
-    "posts": [
-        {
-            "profile_img_url": "static/images/profile.png",
-            "time": "Sep 18, 2020 15:16",
-            "post_img_url": "static/images/portal.jpg",
-            "post_text": "I think it's going to rain"
-        },
-        {
-            "profile_img_url": "static/images/profile.png",
-            "time": "Sep 18, 2020 15:16",
-            "post_img_url": "static/images/portal.jpg",
-            "post_text": "I think it's going to rain"
-        },
-        {
-            "profile_img_url": "static/images/profile.png",
-            "time": "Sep 18, 2020 15:16",
-            "post_img_url": "static/images/portal.jpg",
-            "post_text": "I think it's going to rain"
-        }
-    ]
-}
+[
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Sep 18, 2020 15:16",
+        "post_img_url": "static/images/portal.jpg",
+        "post_text": "I think it's going to rain"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Sep 18, 2020 15:16",
+        "post_img_url": "",
+        "post_text": "Which weighs more a pound of feathers or a pound of bricks?"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Sep 18, 2020 17:18",
+        "post_img_url": "static/images/batman.jpg",
+        "post_text": "Felt cute, might delete later"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Oct 28 , 2021 09:08",
+        "post_img_url": "static/images/flowers.jpeg",
+        "post_text": "Testing if this works"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Oct 28 , 2021 09:78",
+        "post_img_url": "",
+        "post_text": "And it does :DDD"
+    },
+    
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Oct 10 , 2022 11:10",
+        "post_img_url": "static/images/bike.jpg",
+        "post_text": "Selling bike 560 EURO"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Dec 10, 2012 , 13:30",
+        "post_img_url": "static/images/shrek.jpg",
+        "post_text": "Check out this meme"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "Aug 23, 2013 23:41",
+        "post_img_url": "static/images/black_hole.jpg",
+        "post_text": "A black hole is a region of spacetime where gravity is so strong that nothing — no particles or even electromagnetic radiation such as light—can escape from it"
+    },
+    {
+        "profile_img_url": "static/images/profile_girl.jpg",
+        "time": "April 21, 2015 01:46:17",
+        "post_img_url": "",
+        "post_text": "Hello I am new gamer on youtube check out my channel!"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "August 6, 2015 18:43:18",
+        "post_img_url": "static/images/gamer.png",
+        "post_text": "I am about to do whats called a progamer move"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "March 10, 2021 03:32:22",
+        "post_img_url": "",
+        "post_text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel accusamus, iure quam illum earum velit, sit nesciunt, fuga perferendis voluptas harum? Nostrum, voluptate numquam aspernatur optio debitis atque ex. Officiis!"
+    },
+    {
+        "profile_img_url": "static/images/profile.png",
+        "time": "April 30, 2014 04:11:38",
+        "post_img_url": "",
+        "post_text": "Ajax no 'access-control-allow-origin' header is present on the requested resource."
+    }
+]
