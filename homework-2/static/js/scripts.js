@@ -4,14 +4,7 @@
 // JSON keeper link
 // https://jsonkeeper.com/b/7SMC
 
-
-
-
-
-
 // let json_uri = "https://jsonkeeper.com/b/7SMC";
-
-
 
 
 // $(function(){
@@ -21,7 +14,6 @@
 //         }
 //     })
 // })
-
 
 
 let posts_json = {
@@ -59,9 +51,7 @@ let posts_json = {
     ]
 }
 
-{/* <img src="static/images/like_blue.png" alt="Half-Life 2"> */}
 let posts = posts_json.posts
-let like_button = $("<img>", {src: "static/images/like_blue.png"});
 
 for (let i in posts) {
     let card = $("<div>", {"class": "card"});
@@ -85,15 +75,26 @@ for (let i in posts) {
     footer.append("<img src='static/images/like_blue.png'>");
 
 
-
-
     // Add all to card
     card.append(header);
     card.append(body);
     card.append(footer);
+
     // Add card to body
     $('.content-container').append(card);
 }
+
+    
+// Profile dropdown
+let dropdown = $('.profile-dropdown');
+// $('.profile').hide()
+$('.profile-img')
+        .mouseenter(function(){
+        // console.log("HOVER");
+        dropdown.css("display", "block");
+    }).mouseleave(function(){
+        dropdown.css("display", "none");
+    })
 
 
 // let header = ""

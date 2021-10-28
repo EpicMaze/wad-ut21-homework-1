@@ -75,6 +75,27 @@ nav a:hover img[alt="Profile"] {
     transform: scale(1.4);
 }
 
+/* Navbar profile dropdown */
+.profile-dropdown {
+    width: 200px;
+    position: absolute;
+    overflow: hidden;
+    right: 0%;
+    /* margin: 5%; */
+    top: 5%;
+    display: none;
+    background-color: white;
+
+}
+
+.profile-dropdown > p {
+    color: black;
+    font-size: 12px;
+    /* margin: 5%; */
+    padding: 5%;
+}
+
+
 /* ######### END Navbar ########### */
 
 
