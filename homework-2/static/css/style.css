@@ -78,20 +78,19 @@ nav a:hover img[alt="Profile"] {
 /* Navbar profile dropdown */
 .profile-dropdown {
     width: 200px;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     right: 0%;
-    /* margin: 5%; */
     top: 5%;
     display: none;
     background-color: white;
-
+    /* border: 1px solid rgba(0, 0, 0, 0.411); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .profile-dropdown > p {
     color: black;
     font-size: 12px;
-    /* margin: 5%; */
     padding: 5%;
 }
 
@@ -142,7 +141,9 @@ nav a:hover img[alt="Profile"] {
 
 /* Images (profile) in card header */
 .card-header img {
-    height: 100%;
+    /* height: 100%; */
+    width: 32px;
+    height: 32px;
 }
 
 /* paragraphs (time) in card header */
