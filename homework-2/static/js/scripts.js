@@ -7,13 +7,23 @@
 // let json_uri = "https://jsonkeeper.com/b/7SMC";
 
 
-// $(function(){
-//     $.get(json_uri, function(json_obj){
-//         for (obj in json_obj) {
-//             console.log(obj);
-//         }
-//     })
-// })
+// Fetching JSON via URI and Ajax
+$.ajax({
+    method: "GET",
+    url: "https://jsonkeeper.com/b/7SMC",
+    headers: {
+        "Access-Control-Allow-Origin": "*",
+        "accept": "*/*",
+    },
+    // crossDomain: true,
+    dataType: "jsonp",
+    success: function(response) {
+        console.log("JSON");
+    }
+    // error: function(response) {
+
+    // }
+});
 
 
 let posts_json = {
