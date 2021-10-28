@@ -1,0 +1,242 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+   margin: 0;
+   padding: 0;
+   background-color: #f7f7f7;
+}
+
+/* ######### Navbar ########### */
+/* navbar elements layout */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center; 
+    /* 
+    Decided to leave navbar fixed
+    It looks better this way with colors
+     */
+    position: fixed; 
+    width: 100%;    
+    top: 0px;   
+    z-index: 1;     
+} 
+
+/* divs in navbar  */
+nav div {
+    height: 30px;
+    flex-grow: 2;
+    padding: 10px;
+}
+
+/* all images in navbar divs */
+nav div img {
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+/* Profile image to the right */
+nav div:last-child img {
+    float: right;
+}
+
+/* navbar search bar */
+nav div.search-container > input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 80%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+/* navbar search bar button */
+nav div.search-container > button {
+    box-sizing: border-box;
+    height: 30px;
+    width: 20%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(39, 113, 173);
+}
+
+/* Navbar animations */
+nav a:hover img[alt="Homepage"] {
+    transform: scale(1.4);
+}
+
+nav a:hover img[alt="Profile"] {
+    transform: scale(1.4);
+}
+
+/* Navbar profile dropdown */
+.profile-dropdown {
+    width: 200px;
+    position: fixed;
+    overflow: hidden;
+    right: 0%;
+    top: 5%;
+    display: none;
+    background-color: white;
+    /* border: 1px solid rgba(0, 0, 0, 0.411); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.profile-dropdown > p {
+    color: black;
+    font-size: 12px;
+    padding: 5%;
+}
+
+
+/* ######### END Navbar ########### */
+
+
+
+/* ####### Main container ####### */
+
+/* container elements layout */
+.container {
+    display: flex;
+    /* width: 0%; */
+}
+
+/* sidebars layout */
+.content-sidebar {
+    background-color: rgb(39, 113, 173);
+    width: 40%;
+    /* padding: 5%; */
+}
+
+/* where the content is (between sidebards) */
+.content-container {
+    width: 100%;
+    padding: 7%;
+}
+
+/* ----------- Card ----------- */
+
+.card {
+    /* right, left, blur, spread, color, opacity */
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+}
+
+/* Card header layout*/
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-content: flex-start; */
+    padding: 10px;
+}
+
+/* Images (profile) in card header */
+.card-header img {
+    /* height: 100%; */
+    width: 32px;
+    height: 32px;
+}
+
+/* paragraphs (time) in card header */
+.card-header p {
+    margin: 0px;
+}
+
+/* images in card body */
+.card-body img {
+    width: 100%;
+    height: 100%;
+}
+
+/* card footer */
+.card-footer {
+    margin: 15px;
+}
+
+/* images in card footer */
+.card-footer img {
+    height: 100%;
+}
+/* ----------- END Card ----------- */
+
+/* ####### END Main container ####### */
+
+
+
+/* ########## Footer ########## */
+footer {
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    color:rgb(34, 100, 153);
+    /* font-weight: bold; */
+}
+/* ########## END Footer ########## */
+
+
+
+/* ###### MOBILE ####### */
+/* 
+*** Not even needed for index.htmt
+*** I guess thats a sign of good layout :)
+*/
+/* ###### END MOBILE ####### */
+
+
+
+/* 
+    Keyframes dont work when opening html file from 
+    local storage :(( 
+
+    I have done it with transition property...
+*/
+
+/* @keyframes homepage_icon {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.3);}
+    100% {transform: scale(1.4);}
+}
+
+@-webkit-keyframes homepage_icon {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.3);}
+    100% {transform: scale(1.4);}
+}
+
+@-moz-keyframes homepage_icon {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.3);}
+    100% {transform: scale(1.4);}
+}
+
+@-o-keyframes homepage_icon {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.3);}
+    100% {transform: scale(1.4);}
+}
+
+@-ms-keyframes homepage_icon {
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.3);}
+    100% {transform: scale(1.4);}
+} */
+
